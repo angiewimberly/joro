@@ -2,3 +2,22 @@ img{
   width:100%;
   height: auto;
 }
+
+li{
+	position: relative;
+}
+
+li a {
+	display: block;
+	width: 48px;	
+	height: 48px;
+	background-image: url(download.svg);
+	background-size: 100% 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+	position:absolute;
+	bottom:2rem;
+	right:2rem;
+
+
+}
